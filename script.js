@@ -80,10 +80,10 @@ verifyButton.addEventListener("click", () => {
         
         resetButton.click();
         
-        const remainingImages = document.querySelectorAll('.img:not([style*="opacity: 0.3"])');
-        if (remainingImages.length === 0) {
-            h3Element.textContent = "Verification complete! You're definitely human!";
-        }
+        // const remainingImages = document.querySelectorAll('.img:not([style*="opacity: 0.3"])');
+        // if (remainingImages.length === 0) {
+        //     h3Element.textContent = "Verification complete! You're definitely human!";
+        // }
     }
 });
 
